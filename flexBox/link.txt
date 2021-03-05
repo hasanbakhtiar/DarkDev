@@ -1,0 +1,10 @@
+For FlexBox and more
+https://css-tricks.com/snippets/css/a-guide-to-flexbox/
+https://css-tricks.com/
+
+
+For Download JustcolorPicker
+https://annystudio.com/software/colorpicker/
+
+For call font-awesome 
+https://cdnjs.com/libraries/font-awesome
