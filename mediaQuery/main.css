@@ -1,0 +1,124 @@
+/* body{
+    background-color: #000;
+}
+@media only screen and (max-width:500px){
+    body{
+        background-color: pink;
+    }
+}
+
+@media only screen and (min-width:1000px){
+    body{
+        background-color: rgb(255, 0, 43);
+    }
+} */
+
+/* .container{
+    display: flex;
+}
+
+.container .qutu{
+    width: 100px;
+    height: 100px;
+    background-color: #000;
+    margin: 10px;
+}
+
+@media only screen and (max-width:700px){
+    .container{
+        display: flex;
+        flex-direction: column;
+    }
+} */
+
+
+.center{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.space-between{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.space-around{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+.space-evenly{
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+.con-main{
+    height: 410px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.con-main .con-top{
+    width: 100%;
+}
+
+.con-main .con-top .box1{
+    width: 70%;
+    height: 200px;
+    background-color: aqua;
+}
+
+.con-main .con-top .box2{
+    width: 29%;
+    height: 200px;
+    background-color: aqua;
+}
+
+.con-main .con-bottom{
+    width: 100%;
+}
+
+.con-main .con-bottom .box{
+    width: 32%;
+    height: 200px;
+    background-color: aqua;
+}
+
+@media only screen and (max-width:736px){
+    body{
+        background-color: #000;
+    }
+    .con-main{
+      
+    }
+    
+
+    
+    .con-main .con-top .box1{
+      width: 100%;
+    }
+    
+
+    
+    .con-main .con-bottom{
+        width: 100%;
+       display: flex;
+       flex-wrap: wrap;
+    }
+    
+
+    .con-main .con-bottom .box{
+        width: 46%;
+        margin: 10px;
+        height: 200px;
+        background-color: aqua;
+    }
+    .con-main .con-bottom .box2{
+        width: 46%;
+        height: 200px;
+        background-color: aqua;
+    }
+}
