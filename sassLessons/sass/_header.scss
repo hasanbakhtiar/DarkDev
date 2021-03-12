@@ -1,0 +1,17 @@
+header{
+    width: 100%;
+    height: 200px;
+    background-color: green;
+    nav{
+        ul{
+            @include mesafelisira();
+            height: 150px;
+            width: 50%;
+            li{
+                a{
+                    color: $qara;
+                }
+            }
+        }
+    }
+}

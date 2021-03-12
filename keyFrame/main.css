@@ -1,0 +1,25 @@
+body,*{
+    margin: 0px;
+    padding: 0px;
+}
+.box{
+    position: absolute;
+    width: 100px;
+    height: 100px;
+    background-color: rgb(128, 0, 0);
+    /* animation-name: hereket;
+    animation-duration: 2s;
+    animation-iteration-count: infinite; */
+    animation: hereket 3s 1;
+}
+/* @keyframes hereket{
+    from{top:0px;}
+    to{top:100px;}
+} */
+@keyframes hereket{
+    0%{top:0px;left:0px;background-color:green}
+    25%{top:0px;left:100px;background-color:rgb(0, 128, 96)}
+    50%{top:100px;left:100px;background-color:rgb(0, 30, 128)}
+    75%{top:100px;left:0px;background-color:rgb(117, 0, 128)}
+    100%{top:0px;left:0px;background-color:rgb(0, 128, 11)}
+}
