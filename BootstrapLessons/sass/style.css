@@ -1,0 +1,41 @@
+body {
+  overflow-x: hidden;
+}
+
+/* width */
+::-webkit-scrollbar {
+  width: 20px;
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+  -webkit-box-shadow: inset 0 0 5px grey;
+          box-shadow: inset 0 0 5px grey;
+  border-radius: 5px;
+}
+
+/* Handle */
+::-webkit-scrollbar-thumb {
+  background: #343A40;
+  border-radius: 10px;
+}
+
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+  background: #737373;
+}
+
+.box-container {
+  width: 100%;
+}
+
+.box-container .box {
+  width: 100px;
+  height: 100px;
+  background-color: red;
+}
+
+.my-ft {
+  height: 50px;
+}
+/*# sourceMappingURL=style.css.map */
