@@ -1,0 +1,13 @@
+ul{
+    li{
+        color: red;
+
+       
+    }
+}
+
+button{
+    &:hover{
+        background-color: green;
+    }
+}
