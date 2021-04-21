@@ -124,5 +124,60 @@ function mOut(obj) {
 
 <!-- https://www.w3schools.com/js/tryit.asp?filename=tryjs_dom_animate_3? -->
 
+
+<!-- <p></p>
+<script>
+
+var infoTime = () => {document.getElementsByTagName('p')[0].innerHTML = new Date();}
+setInterval(infoTime, 0.1)
+</script> -->
+<!-- <button onmousedown="infoDown(this)" onmouseup="infoUp(this)">Click Me</button>
+
+<script>
+    const infoDown = (buttonHere) =>{
+        buttonHere.innerHTML = "Pressing";
+    }
+    const infoUp = (buttonHere) => {
+        buttonHere.innerHTML = "Press Out";
+
+    }
+</script> -->
+
+<!-- <p></p>
+<button>Press</button>
+
+<script>
+     function infoClick(){
+        document.querySelector('button').innerHTML = "Hi";
+    }
+    document.querySelector('button').addEventListener('mousedown', infoClick);
+
+   
+</script> -->
+
+
+<!-- <h1>hi Javascript</h1>
+<p></p>
+<script>
+    document.querySelector('p').innerHTML = document.querySelector('h1').childNodes[0].nodeValue;
+</script> -->
+
+
+<div>
+<h1>FS JS</h1>
+</div>
+
+<script>
+
+ var infoAdd  = document.createElement('h1');
+ var infoText = document.createTextNode('HI JS');
+infoAdd.appendChild(infoText);
+
+var infoElement =  document.querySelector('div');
+infoElement.appendChild(infoAdd);
+
+</script>
+
+
 </body>
 </html>
