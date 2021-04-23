@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Lesson BOM</title>
+</head>
+<body>
+    <!-- <p>Open "myWindow" and move the new window to the top left corner of the screen:</p>
+
+    <button onclick="openWin()">Open "myWindow"</button>
+    <button onclick="moveWin()">Move "myWindow"</button>
+    
+    <script>
+    var myWindow;
+    
+    function openWin() {
+      myWindow=window.open("", "myWindow", "width=500, height=400");
+      myWindow.document.write("<p>This is 'myWindow'</p>");
+    }
+    
+    function moveWin() {
+      myWindow.moveTo(1000, 100);
+      myWindow.focus();
+    }
+    </script> -->
+    
+<!-- 
+    <p>Open a new window, and resize the width and height to 500px:</p>
+
+<button onclick="openWin()">Create window</button>
+<button onclick="resizeWin()">Resize window</button>
+
+<script>
+var myWindow;
+
+function openWin() {
+  myWindow = window.open("", "", "width=200, height=200");
+}
+
+function resizeWin() {
+  myWindow.resizeTo(550, 550);
+  myWindow.focus();
+}
+</script> -->
+
+<button onclick="infoData()">Press</button>
+<script>
+  document.write( window.location.port);
+const infoData=()=>{
+  window.location.assign("https://www.w3schools.com")
+}
+
+</script>
+
+</body>
+</html>
