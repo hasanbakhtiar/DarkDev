@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="sass/style.css">
+    
+</head>
+<body>
+    <h1 class="text">Hi Jquery</h1>
+    <p class="text">Hi Jquery</p>
+    <h1 id="text">Hi Jquery</h1>
+<button class="btn1">Sil</button>
+
+
+
+    
+    
+<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js" integrity="sha512-894YE6QWD5I59HgZOGReFYm4dnWc1Qt5NtvYSaNcOP+u1T9qYdvdihz0PPSiiqn/+/3e7Jo4EaG7TubfWGUrMQ==" crossorigin="anonymous"></script>
+    
+    <script>
+         
+// $(function(){
+
+    
+// $("h1"/*nə ilə tətbiq edən*/)/*nə zaman tətbiq edən*/.click(function(){
+
+//   $(this/*tetbiq olunan*/).hide()/*tetbiq eden hereket*/;
+
+
+
+// });
+// });
+
+
+
+$(document).ready(function(){
+        $(".btn1").click(function(){
+           $("h1.text").slideToggle()
+        })
+      
+
+        //   $("button").click(function(){
+        //    $(this).css("background","green").css('color','white').css('font-family','sans-serif')
+        // })
+});
+
+
+
+
+    </script>
+
+</body>
+</html>
