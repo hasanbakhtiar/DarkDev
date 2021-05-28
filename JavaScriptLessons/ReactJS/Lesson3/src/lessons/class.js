@@ -17,17 +17,17 @@
 // console.log(infoData);
 
 class infoClass {
-    constructor(){
-        console.log("constructor worikng");
-    }
+  constructor(){
+      console.log("constructor worikng");
+  }
 
-    elosetinfo(){
-        console.log("eloset isliyir obshnoyda");
-    }
+  elosetinfo(){
+      console.log("eloset isliyir obshnoyda");
+  }
 
-    mehmmed(){
-        console.log("mehmmed");
-    }
+  mehmmed(){
+      console.log("mehmmed");
+  }
 }
 
 const infoData = new infoClass();
